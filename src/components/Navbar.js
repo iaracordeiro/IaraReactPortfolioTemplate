@@ -9,12 +9,12 @@ import { singlePage } from '../info/Info';
 
 const links = [
     {
-        name: 'Home',
+        name: 'Intro',
         to: '',
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: 'Skills',
         to: 'about',
         active: 'about'
     },
@@ -25,7 +25,7 @@ const links = [
         active: 'home'
     },
     {
-        name: 'Portfolio',
+        name: 'EXP',
         to: 'portfolio',
         active: 'portfolio'
     }
@@ -46,7 +46,7 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
         <Box component={'nav'} width={'100%'} position={singlePage ? 'fixed' : 'relative'} className={darkMode? Style.dark : Style.light}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                 gap={{ xs: '2rem', md: '8rem' }}
-                textTransform={'lowercase'} fontSize={'1rem'}>
+                fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                         sx={{ borderImageSource: info.gradient }}>
