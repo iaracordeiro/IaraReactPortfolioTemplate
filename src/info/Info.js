@@ -45,11 +45,11 @@ export const info = {
                 {
             emoji: '📍',
             text: 'Vila Tolstoi - São Paulo - SP'
-        },
-        {
-            emoji: "📞",
-            text: "+55 (11) 99354-5910"
         }
+        // {
+        //     emoji: "📞",
+        //     text: "+55 (11) 99354-5910"
+        // }
     ],
     socials: [
 //        {
