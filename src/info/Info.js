@@ -68,7 +68,7 @@ export const info = {
             label: 'linkedin'
         },
         {
-            link: "mailto: cordeiroiarajk@gmail.com",
+            link: "mailto: cordeiroiarahk@gmail.com",
             icon: "fa fa-envelope",
             label: 'email'
         },
